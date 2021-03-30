@@ -141,14 +141,10 @@ axios.interceptors.response.use(function (response) {
 # 於main.js引用vue-loading-overlay
 
 ```
-    import Vue from 'vue';
-    // Import component
-    import Loading from 'vue-loading-overlay';
-    // Import stylesheet
-    import 'vue-loading-overlay/dist/vue-loading.css';
-    // Init plugin
-    Vue.component('Loading', Loading)
-
+import Vue from 'vue';
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
+Vue.component('Loading', Loading)
 ```
 
 # 於App.vue中新增loading compo
